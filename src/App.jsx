@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import DiscoverSection from './components/DiscoverSection';
+import AIDiscovery from './components/AIDiscovery';
 import CollaborationShowcase from './components/CollaborationShowcase';
 
 function App() {
@@ -9,20 +9,20 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <DiscoverSection />
+        <AIDiscovery />
         <section id="features" className="py-16 sm:py-24 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-6">
             <FeatureCard
               title="Semantic search"
-              desc="Find the most relevant venues and papers with embeddings and RAG."
+              desc="Find the best venues with embeddings, fit scores, and justifications."
             />
             <FeatureCard
-              title="Smart profiles"
-              desc="Let AI summarize expertise, impact, and collaboration fit."
+              title="Smart filters"
+              desc="Filter by timeline, access type, impact, region, and subject areas."
             />
             <FeatureCard
-              title="Reproducible workflow"
-              desc="Version datasets, notebooks, and manuscripts end‑to‑end."
+              title="Collaboration suite"
+              desc="Branch, review, and version everything: manuscripts, datasets, and code."
             />
           </div>
         </section>
